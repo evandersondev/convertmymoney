@@ -1,4 +1,5 @@
 const convert = require("../lib/convert");
+const apiBCB = require("../lib/api.bcb");
 
 module.exports = {
   price(req, res) {

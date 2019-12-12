@@ -11,9 +11,14 @@
     <%- include('header') %>
 
     <form action="/price" method="GET">
-      <input type="text" name="price" placeholder="Price of the dollar" />
+      <input
+        type="text"
+        name="price"
+        placeholder="Price of the dollar"
+        value="<%= cotacao %>"
+      />
       <input type="text" name="quantity" placeholder="Quantity of dollar" />
       <button>Convert !</button>
     </form>
   </body>
-</html>
+</%=>
